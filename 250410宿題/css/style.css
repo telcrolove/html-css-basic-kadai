@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-size:15px;
+}
+p{
+    margin: 0;
+    font-size:15px;
+}
+#parent{
+    margin: 10%;
+}
+.contents{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 3px dotted rgb(255,165,200);
+    padding: 15px;
+    justify-content: baseline;
+}
+#parent .contents:nth-of-type(1){
+    border-top: 3px solid rgb(255,165,200);
+}
+#parent .contents:nth-of-type(6){
+    border-bottom: 3px solid rgb(255,165,200);
+}
+.contents img{
+    width: 20%;
+    height: 20%;
+}
+
+.text-box{
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+}
